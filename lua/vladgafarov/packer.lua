@@ -50,9 +50,7 @@ use {
 use {
 	'windwp/nvim-ts-autotag'
 }
-use {"akinsho/toggleterm.nvim", tag = '*', config = function() 
-	require("toggleterm").setup()
-end} 
+use {"akinsho/toggleterm.nvim", tag = '*'} 
 use({
   "utilyre/barbecue.nvim",
   requires = {
