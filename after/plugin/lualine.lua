@@ -4,7 +4,7 @@ require('lualine').setup{
 		theme = 'dracula'
 	},
 	sections = {
-		lualine_a = {'mode'},
+		lualine_a = {},
 		lualine_b = {'branch', 'diff'},
 		lualine_c = {
 			{
