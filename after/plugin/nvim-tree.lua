@@ -11,6 +11,9 @@ vim.opt.termguicolors = true
 require("nvim-tree").setup{
 	filters = {
 		custom = {"^.git$"}
-	}
+	},
+	update_focused_file = {
+		enable = true,
+	},
 }
-
+vim.keymap.set('n', '<C-B>', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
