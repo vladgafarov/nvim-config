@@ -15,7 +15,14 @@ vim.o.smartcase = true
 
 vim.o.termguicolors = true
 
+vim.opt.undofile = true
+
+-- Enable mouse mode
+vim.o.mouse = 'a'
+
+-- Enable break indent
+vim.o.breakindent = true
+
 -- vim.opt.swapfile = false
 -- vim.opt.backup = false
 -- vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
--- vim.opt.undofile = true
