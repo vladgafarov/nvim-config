@@ -11,7 +11,7 @@ require('lualine').setup{
 			'filename',
 			}
 		},
-		lualine_x = {'fileformat', 'filetype'},
+		lualine_x = {'filetype'},
 		lualine_y = {},
 		lualine_z = {'location'}
 	}
