@@ -9,6 +9,9 @@ vim.opt.termguicolors = true
 
 -- empty setup using defaults
 require("nvim-tree").setup{
+	view = {
+		adaptive_size = true,
+	},
 	filters = {
 		custom = {"^.git$"}
 	},

@@ -78,4 +78,10 @@ use {
 use {
   'lewis6991/gitsigns.nvim',
 }
+use {
+	"folke/trouble.nvim",
+	requires = "kyazdani42/nvim-web-devicons",
+}
+use('jose-elias-alvarez/null-ls.nvim')
+use('MunifTanjim/prettier.nvim')
 end)
