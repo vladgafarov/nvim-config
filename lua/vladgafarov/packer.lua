@@ -9,7 +9,7 @@ return require('packer').startup(function(use)
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
-	use {'dracula/vim', as = 'dracula', 
+	use {'dracula/vim', as = 'dracula',
 	config = function()
 		vim.cmd('colorscheme dracula')
 	end
@@ -47,7 +47,7 @@ use {
 use {
 	'windwp/nvim-ts-autotag'
 }
-use {"akinsho/toggleterm.nvim", tag = '*'} 
+use {"akinsho/toggleterm.nvim", tag = '*'}
 use({
 	"utilyre/barbecue.nvim",
 	requires = {
