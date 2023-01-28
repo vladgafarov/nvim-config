@@ -13,3 +13,7 @@ linux:
 ```
 
 On Linux and macOS, the directory is ~/.config/nvim. On Windows, the config directory is $HOME/AppData/Local/nvim1. First, we need to remove all the files under the config directory (including dot files), then go to this directory, and clone this repository 
+
+```bash
+:checkhealth telescope
+```
