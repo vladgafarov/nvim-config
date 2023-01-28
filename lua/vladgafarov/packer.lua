@@ -81,4 +81,5 @@ use {
 }
 use('jose-elias-alvarez/null-ls.nvim')
 use('MunifTanjim/prettier.nvim')
+use('WhoIsSethDaniel/toggle-lsp-diagnostics.nvim')
 end)
