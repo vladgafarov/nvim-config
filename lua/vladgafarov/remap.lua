@@ -1,6 +1,7 @@
 vim.g.mapleader = " "
 
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("i", "jj", "<Esc>")
 
 -- better window movement
 vim.keymap.set("n", "<C-h>", "<C-w>h")
@@ -24,6 +25,6 @@ vim.keymap.set("n", "<A-j>", ":m .+1<CR>==")
 vim.keymap.set("n", "<A-k>", ":m .-2<CR>==")
 vim.keymap.set("x", "<A-j>", ":m '>+1<CR>gv-gv")
 vim.keymap.set("x", "<A-k>", ":m '>-2<CR>gv-gv")
-vim.keymap.set("i", "<A-k>", "<Esc>:m .-2<CR>==gi")
 vim.keymap.set("i", "<A-j>", "<Esc>:m .+1<CR>==gi")
+vim.keymap.set("i", "<A-k>", "<Esc>:m .-2<CR>==gi")
 
