@@ -48,17 +48,6 @@ use {
 	'windwp/nvim-ts-autotag'
 }
 use {"akinsho/toggleterm.nvim", tag = '*'}
-use({
-	"utilyre/barbecue.nvim",
-	requires = {
-		"neovim/nvim-lspconfig",
-		"SmiteshP/nvim-navic",
-		"nvim-tree/nvim-web-devicons", -- optional dependency
-	},
-	config = function()
-		require("barbecue").setup()
-	end,
-})
 use {
 	'nvim-tree/nvim-tree.lua',
 	requires = {
