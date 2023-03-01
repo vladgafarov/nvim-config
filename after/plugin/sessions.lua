@@ -1,1 +1,3 @@
-require("sessions").setup()
+require("sessions").setup({
+	session_filepath = '.nvim/session'
+})
