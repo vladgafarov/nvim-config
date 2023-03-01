@@ -28,3 +28,6 @@ vim.keymap.set("x", "<A-k>", ":m '>-2<CR>gv-gv")
 vim.keymap.set("i", "<A-j>", "<Esc>:m .+1<CR>==gi")
 vim.keymap.set("i", "<A-k>", "<Esc>:m .-2<CR>==gi")
 
+vim.keymap.set('n', '<space>e', vim.diagnostic.open_float, {noremap = true, silent = true})
+vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist, {noremap = true, silent = true})
+vim.keymap.set('n', '<space>d', 'v:lua.vim.lsp.omnifunc', {noremap = true, silent = true})

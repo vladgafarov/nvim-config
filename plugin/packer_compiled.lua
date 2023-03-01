@@ -222,6 +222,11 @@ _G.packer_plugins = {
     path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/prettier.nvim",
     url = "https://github.com/MunifTanjim/prettier.nvim"
   },
+  ["sessions.nvim"] = {
+    loaded = true,
+    path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/sessions.nvim",
+    url = "https://github.com/natecraddock/sessions.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -246,6 +251,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["workspaces.nvim"] = {
+    loaded = true,
+    path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/workspaces.nvim",
+    url = "https://github.com/natecraddock/workspaces.nvim"
   }
 }
 
