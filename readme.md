@@ -17,3 +17,7 @@ On Linux and macOS, the directory is ~/.config/nvim. On Windows, the config dire
 ```bash
 :checkhealth telescope
 ```
+
+```bash
+:so
+```
