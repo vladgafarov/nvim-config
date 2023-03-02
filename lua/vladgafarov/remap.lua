@@ -32,4 +32,4 @@ vim.keymap.set('n', '<space>e', vim.diagnostic.open_float, {noremap = true, sile
 vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist, {noremap = true, silent = true})
 vim.keymap.set('n', '<space>d', 'v:lua.vim.lsp.omnifunc', {noremap = true, silent = true})
 
-vim.keymap.set("x", "<C-_>", ':call nerdcommenter#Comment(0,"toggle")<CR>', {noremap = true, silent = true})
+vim.keymap.set("n", "<C-_>", ':call nerdcommenter#Comment(0,"toggle")<CR>', {noremap = true, silent = true})
