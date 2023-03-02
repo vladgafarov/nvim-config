@@ -14,7 +14,6 @@ return require('packer').startup(function(use)
 		vim.cmd('colorscheme dracula')
 	end
 }
-
 use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 use('theprimeagen/harpoon')
 use('mbbill/undotree')
@@ -48,14 +47,23 @@ use {
 	'windwp/nvim-ts-autotag'
 }
 use {"akinsho/toggleterm.nvim", tag = '*'}
+--use {
+--	'nvim-tree/nvim-tree.lua',
+--	requires = {
+--		'nvim-tree/nvim-web-devicons', -- optional, for file icons
+--	},
+--	tag = 'nightly' -- optional, updated every week. (see issue #1193)
+--}
+--use 'nvim-tree/nvim-web-devicons'
 use {
-	'nvim-tree/nvim-tree.lua',
-	requires = {
-		'nvim-tree/nvim-web-devicons', -- optional, for file icons
-	},
-	tag = 'nightly' -- optional, updated every week. (see issue #1193)
-}
-use 'nvim-tree/nvim-web-devicons'
+  "nvim-neo-tree/neo-tree.nvim",
+    branch = "v2.x",
+    requires = {
+      "nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+      "MunifTanjim/nui.nvim",
+    }
+  }
 use {'romgrk/barbar.nvim', wants = 'nvim-web-devicons'}
 use {
 	'nvim-lualine/lualine.nvim',
@@ -74,4 +82,5 @@ use('WhoIsSethDaniel/toggle-lsp-diagnostics.nvim')
 use("petertriho/nvim-scrollbar")
 use { 'TimUntersberger/neogit', requires = {'nvim-lua/plenary.nvim', 'sindrets/diffview.nvim'} }
 use { 'natecraddock/workspaces.nvim', requires = { 'natecraddock/sessions.nvim' } }
+use('preservim/nerdcommenter')
 end)
