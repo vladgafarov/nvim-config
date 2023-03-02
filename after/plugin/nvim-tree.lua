@@ -1,22 +1,22 @@
--- examples for your init.lua
+---- examples for your init.lua
 
--- disable netrw at the very start of your init.lua (strongly advised)
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
+---- disable netrw at the very start of your init.lua (strongly advised)
+--vim.g.loaded_netrw = 1
+--vim.g.loaded_netrwPlugin = 1
 
--- set termguicolors to enable highlight groups
-vim.opt.termguicolors = true
+---- set termguicolors to enable highlight groups
+--vim.opt.termguicolors = true
 
--- empty setup using defaults
-require("nvim-tree").setup{
-	view = {
-		adaptive_size = true,
-	},
-	filters = {
-		custom = {"^.git$"}
-	},
-	update_focused_file = {
-		enable = true,
-	},
-}
-vim.keymap.set('n', '<C-B>', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
+---- empty setup using defaults
+--require("nvim-tree").setup{
+	--view = {
+		--adaptive_size = true,
+	--},
+	--filters = {
+		--custom = {"^.git$"}
+	--},
+	--update_focused_file = {
+		--enable = true,
+	--},
+--}
+--vim.keymap.set('n', '<C-B>', ':NvimTreeToggle<CR>', {noremap = true, silent = true})

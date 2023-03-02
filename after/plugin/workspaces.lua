@@ -5,10 +5,11 @@ require("workspaces").setup({
 			"silent %bdelete!",
 		},
 		open = {
-			'NvimTreeOpen',
 			function ()
 				require('sessions').load(nil, { silent = true })
 			end
 		}
 	}
 })
+
+vim.keymap.set('n', '<leader>ws', ':Telescope workspaces<CR>')

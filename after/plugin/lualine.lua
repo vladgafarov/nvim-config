@@ -1,5 +1,5 @@
 require('lualine').setup{
-	extensions = {'nvim-tree', 'toggleterm'},
+	extensions = {'neo-tree', 'toggleterm'},
 	options = {
 		theme = 'dracula'
 	},
