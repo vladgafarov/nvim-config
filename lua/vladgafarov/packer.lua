@@ -83,4 +83,6 @@ use("petertriho/nvim-scrollbar")
 use { 'TimUntersberger/neogit', requires = {'nvim-lua/plenary.nvim', 'sindrets/diffview.nvim'} }
 use { 'natecraddock/workspaces.nvim', requires = { 'natecraddock/sessions.nvim' } }
 use('preservim/nerdcommenter')
+use('tpope/vim-fugitive')
+use('rbong/vim-flog')
 end)
