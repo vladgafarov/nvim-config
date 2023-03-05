@@ -20,6 +20,9 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 -- save on ctrl-s
 vim.keymap.set("n", "<C-s>", ":w<CR>")
 
+-- select all
+vim.keymap.set("n", "<C-a>", "ggVG")
+
 -- move lines like VSCode
 vim.keymap.set("n", "<A-j>", ":m .+1<CR>==")
 vim.keymap.set("n", "<A-k>", ":m .-2<CR>==")
