@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["ayu-vim"] = {
+    loaded = true,
+    path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/ayu-vim",
+    url = "https://github.com/ayu-theme/ayu-vim"
+  },
   ["barbar.nvim"] = {
     loaded = true,
     path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/barbar.nvim",
@@ -116,10 +121,14 @@ _G.packer_plugins = {
     url = "https://github.com/sindrets/diffview.nvim"
   },
   dracula = {
-    config = { "\27LJ\2\n7\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\24colorscheme dracula\bcmd\bvim\0" },
     loaded = true,
     path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/dracula",
     url = "https://github.com/dracula/vim"
+  },
+  dracula_pro = {
+    loaded = true,
+    path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/dracula_pro",
+    url = "/home/vladgafarov/.config/nvim/pack/dracula_pro"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -131,10 +140,10 @@ _G.packer_plugins = {
     path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
-  harpoon = {
+  ["iceberg.vim"] = {
     loaded = true,
-    path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/harpoon",
-    url = "https://github.com/theprimeagen/harpoon"
+    path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/iceberg.vim",
+    url = "https://github.com/cocopon/iceberg.vim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -170,6 +179,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/nerdcommenter",
     url = "https://github.com/preservim/nerdcommenter"
+  },
+  ["night-owl.vim"] = {
+    loaded = true,
+    path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/night-owl.vim",
+    url = "https://github.com/haishanh/night-owl.vim"
+  },
+  ["night_owl_light.vim"] = {
+    loaded = true,
+    path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/night_owl_light.vim",
+    url = "https://github.com/macguirerintoul/night_owl_light.vim"
   },
   ["nui.nvim"] = {
     loaded = true,
@@ -272,6 +291,11 @@ _G.packer_plugins = {
     path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
+  ["vim-one"] = {
+    loaded = true,
+    path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/vim-one",
+    url = "https://github.com/rakr/vim-one"
+  },
   ["workspaces.nvim"] = {
     loaded = true,
     path = "/home/vladgafarov/.local/share/nvim/site/pack/packer/start/workspaces.nvim",
@@ -284,10 +308,6 @@ time([[Defining packer_plugins]], false)
 time([[Config for nvim-autopairs]], true)
 try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
 time([[Config for nvim-autopairs]], false)
--- Config for: dracula
-time([[Config for dracula]], true)
-try_loadstring("\27LJ\2\n7\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\24colorscheme dracula\bcmd\bvim\0", "config", "dracula")
-time([[Config for dracula]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
