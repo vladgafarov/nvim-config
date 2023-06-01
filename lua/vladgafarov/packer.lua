@@ -83,8 +83,9 @@ use('macguirerintoul/night_owl_light.vim')
 use('ayu-theme/ayu-vim')
 use('cocopon/iceberg.vim')
 use('rakr/vim-one')
---use('~/AppData/Local/nvim/pack/dracula_pro')
 use('~/.config/nvim/pack/dracula_pro')
+--use('~/AppData/Local/nvim/pack/dracula_pro')
+use {
 	"AckslD/nvim-neoclip.lua",
 	requires = {
 		{'kkharji/sqlite.lua', module = 'sqlite'},
