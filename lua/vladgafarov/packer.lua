@@ -84,4 +84,10 @@ use('ayu-theme/ayu-vim')
 use('cocopon/iceberg.vim')
 use('rakr/vim-one')
 use('~/AppData/Local/nvim/pack/dracula_pro')
+use {
+	"AckslD/nvim-neoclip.lua",
+	requires = {
+		{'kkharji/sqlite.lua', module = 'sqlite'},
+	},
+}
 end)
