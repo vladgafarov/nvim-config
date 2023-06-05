@@ -69,8 +69,7 @@ use {
 	"folke/trouble.nvim",
 	requires = "kyazdani42/nvim-web-devicons",
 }
-use('jose-elias-alvarez/null-ls.nvim')
-use('MunifTanjim/prettier.nvim')
+use('sbdchd/neoformat')
 use('WhoIsSethDaniel/toggle-lsp-diagnostics.nvim')
 use("petertriho/nvim-scrollbar")
 use { 'TimUntersberger/neogit', requires = {'nvim-lua/plenary.nvim', 'sindrets/diffview.nvim'} }
