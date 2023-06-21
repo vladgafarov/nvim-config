@@ -19,7 +19,7 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 
 -- save on ctrl-s
 vim.keymap.set("n", "<C-s>", ":w<CR>")
-vim.keymap.set("i", "<C-s>", "<ESC>:w<CR>")
+vim.keymap.set("i", "<C-s>", "<Esc>:w<CR>")
 
 -- select all
 vim.keymap.set("n", "<C-a>", "ggVG")
