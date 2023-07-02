@@ -93,8 +93,11 @@ use {
 use {
   "folke/which-key.nvim",
   config = function()
-    vim.o.timeout = true
-    vim.o.timeoutlen = 300
+	 vim.o.timeout = true
+	 vim.o.timeoutlen = 600
   end
+}
+use {
+	"folke/flash.nvim",
 }
 end)
