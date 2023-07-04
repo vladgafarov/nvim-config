@@ -9,7 +9,6 @@ use {
 }
 use {'dracula/vim', as = 'dracula'}
 use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
-use('mbbill/undotree')
 use {
 	'VonHeikemen/lsp-zero.nvim',
 	requires = {
@@ -40,14 +39,6 @@ use {
 	'windwp/nvim-ts-autotag'
 }
 use {"akinsho/toggleterm.nvim", tag = '*'}
---use {
---	'nvim-tree/nvim-tree.lua',
---	requires = {
---		'nvim-tree/nvim-web-devicons', -- optional, for file icons
---	},
---	tag = 'nightly' -- optional, updated every week. (see issue #1193)
---}
---use 'nvim-tree/nvim-web-devicons'
 use {
   "nvim-neo-tree/neo-tree.nvim",
     branch = "v2.x",
@@ -72,11 +63,8 @@ use {
 use('sbdchd/neoformat')
 use('WhoIsSethDaniel/toggle-lsp-diagnostics.nvim')
 use("petertriho/nvim-scrollbar")
-use { 'TimUntersberger/neogit', requires = {'nvim-lua/plenary.nvim', 'sindrets/diffview.nvim'} }
 use { 'natecraddock/workspaces.nvim', requires = { 'natecraddock/sessions.nvim' } }
 use('preservim/nerdcommenter')
-use('tpope/vim-fugitive')
-use('rbong/vim-flog')
 use('haishanh/night-owl.vim')
 use('macguirerintoul/night_owl_light.vim')
 use('ayu-theme/ayu-vim')
